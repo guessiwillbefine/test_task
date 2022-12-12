@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import ua.vadim.test_assignment.model.Person;
 import ua.vadim.test_assignment.repository.PersonRepository;
-
 import java.util.Optional;
 
 @Service
