@@ -1,0 +1,8 @@
+ua.vadim.test_assignment
+ua.vadim.test_assignment.controllers
+ua.vadim.test_assignment.model
+ua.vadim.test_assignment.model.dto
+ua.vadim.test_assignment.repository
+ua.vadim.test_assignment.service
+ua.vadim.test_assignment.util.exceptions.exceptions
+ua.vadim.test_assignment.util.mapper

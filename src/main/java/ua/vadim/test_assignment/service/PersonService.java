@@ -21,6 +21,11 @@ public class PersonService {
         this.logger = LoggerFactory.getLogger(PersonService.class);
     }
 
+    /**
+     *
+     * @param id - id of user need to be found
+     * @return Person data covered with Optional
+     */
     @Transactional(readOnly = true)
     public Optional<Person> findById(long id) {
         logger.debug(String.format("attempt to find user with id[%d]", id));
