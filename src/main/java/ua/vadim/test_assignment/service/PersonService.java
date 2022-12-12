@@ -27,7 +27,9 @@ public class PersonService {
      */
     @Transactional(readOnly = true)
     public Optional<Person> findById(long id) {
-        logger.debug(String.format("attempt to find user with id[%d]", id));
+        if (logger.isDebugEnabled()) {
+            logger.debug(String.format("attempt to find user with id[%d]", id));
+        }
         return repository.findById(id);
     }
 }
